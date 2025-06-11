@@ -1,3 +1,5 @@
+# WictroniX - Digital
+
 <img src="" alt="Troika Hub Logo" width="50" height="50">
 
 # Troika Hub - The All-in-One Creative Lab for Innovators (Landing Page)
