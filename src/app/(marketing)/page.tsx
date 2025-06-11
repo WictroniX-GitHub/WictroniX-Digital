@@ -27,26 +27,26 @@ const HomePage = () => {
                             <span className="backdrop absolute inset-[1px] rounded-full bg-neutral-950 group-hover:bg-neutral-900" />
                             <span className="h-full w-full blur-md absolute bottom-0 inset-x-0 bg-gradient-to-tr from-primary/20"></span>
                             <span className="z-10 py-0.5 text-sm text-neutral-100 flex items-center justify-center gap-1">
-                                Troika-Hub is now Live!
+                                Wictronix Digital is now Live!
                                 <ArrowRightIcon className="ml-1 size-3 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
                             </span>
                         </button>
 
                         <h1 className="text-foreground text-center py-6 text-5xl font-medium tracking-normal text-balance sm:text-6xl md:text-7xl lg:text-8xl !leading-[1.15] w-full font-heading">
-                            Where Innovation Meets{" "}
+                            Empowering Ideas with
                             <span className="text-transparent bg-gradient-to-r from-violet-500 to-fuchsia-500 bg-clip-text inline-bloc">
-                                Vision
+                                Tech Solutions
                             </span>
                         </h1>
                         <p className="mb-12 text-lg tracking-tight text-muted-foreground md:text-xl text-balance">
-                            Seamlessly blend design, technology, and imagination in one place.
+                            We innovate, strategize, and deliver digital solutions.
                             <br className="hidden md:block" />
-                            <span className="hidden md:block">Crafting digital experiences that resonate, inspire, and endure.</span>
+                            <span className="hidden md:block">Your trusted partner in IT transformation and success.</span>
                         </p>
                         <div className="flex items-center justify-center whitespace-nowrap gap-4 z-50">
                             <Button asChild>
                                 <Link href="/auth/sign-in" className="flex items-center">
-                                    Join our community!
+                                    Join Wictronix Today
                                     <ArrowRightIcon className="w-4 h-4 ml-2" />
                                 </Link>
                             </Button>
@@ -59,7 +59,7 @@ const HomePage = () => {
                             <BorderBeam size={250} duration={12} delay={9} />
                             <Image
                                 src="/assets/Profile Screen (1).png"
-                                alt="Dashboard"
+                                alt="Wictronix Dashboard"
                                 width={1200}
                                 height={1200}
                                 quality={100}
@@ -78,7 +78,7 @@ const HomePage = () => {
                     <div className="py-14">
                         <div className="mx-auto px-4 md:px-8">
                             <h2 className="text-center text-sm font-medium font-heading text-neutral-400 uppercase">
-                                Trusted by the best in the industry
+                                Partners Who Trust Us
                             </h2>
                             <div className="mt-8">
                                 <ul className="flex flex-wrap items-center gap-x-6 gap-y-6 md:gap-x-16 justify-center">
@@ -105,12 +105,12 @@ const HomePage = () => {
             <MaxWidthWrapper className="pt-10">
                 <AnimationContainer delay={0.1}>
                     <div className="flex flex-col w-full items-center justify-center py-8">
-                        <MagicBadge title="Products" />
+                        <MagicBadge title="Our Services" />
                         <h2 className="text-center text-3xl md:text-5xl font-medium font-heading text-foreground mt-6">
-                            Crafted for Visionaries Like You
+                            Solutions Engineered for Your Business
                         </h2>
                         <p className="mt-4 text-center text-lg text-muted-foreground max-w-lg">
-                            We create Products that empower you by solving the challenges that truly count.
+                            Wictronix crafts tailored IT solutions that solve real-world business challenges.
                         </p>
                     </div>
                 </AnimationContainer>
@@ -127,12 +127,12 @@ const HomePage = () => {
             <MaxWidthWrapper className="py-10">
                 <AnimationContainer delay={0.1}>
                     <div className="flex flex-col items-center justify-center w-full py-8 max-w-xl mx-auto">
-                        <MagicBadge title="The Process" />
+                        <MagicBadge title="Our Approach" />
                         <h2 className="text-center text-3xl md:text-5xl font-medium font-heading text-foreground mt-6">
-                            From Concept to Creation in 3 Simple Steps
+                            From Discovery to Delivery in 3 Steps
                         </h2>
                         <p className="mt-4 text-center text-lg text-muted-foreground max-w-lg">
-                            At Troika Hub, we bring your ideas to life with a seamless, 3-step process designed for visionaries like you.
+                            Wictronix transforms your concepts into digital solutions through our streamlined process.
                         </p>
                     </div>
                 </AnimationContainer>
@@ -156,16 +156,16 @@ const HomePage = () => {
                 </div>
             </MaxWidthWrapper>
 
-            {/* Pricing / Team Section */}
+            {/* Team Section */}
             <MaxWidthWrapper className="py-10">
                 <AnimationContainer delay={0.1}>
                     <div className="flex flex-col items-center justify-center w-full py-8 max-w-xl mx-auto">
-                        <MagicBadge title="Meet The Team" />
+                        <MagicBadge title="Our Team" />
                         <h2 className="text-center text-3xl md:text-5xl font-medium font-heading text-foreground mt-6">
-                            Meet the Visionaries Behind Troika Hub
+                            Meet the Minds Behind Wictronix
                         </h2>
                         <p className="mt-4 text-center text-lg text-muted-foreground max-w-lg">
-                            A talented team of creators, developers, and innovators working together to bring bold ideas to life.
+                            A skilled team committed to turning technology into tangible success stories.
                         </p>
                     </div>
                 </AnimationContainer>
@@ -177,13 +177,13 @@ const HomePage = () => {
                         <div className="flex items-center gap-2">
                             <Triangle className="w-5 h-5 text-foreground" />
                             <span className="text-muted-foreground">
-                                Troika means a group of three in Russian, so it's a symbol of unity among us three.
+                                Wictronix symbolizes the synergy between innovation, strategy, and execution.
                             </span>
                         </div>
                         <div className="flex items-center gap-1">
                             <SquareDashedMousePointer />
                             <span className="text-muted-foreground">
-                                Ps: hover over the text in the cards to get more info about them :&gt;
+                                Ps: hover over the cards to explore more insights &raquo;
                             </span>
                         </div>
                     </div>
@@ -194,12 +194,12 @@ const HomePage = () => {
             <MaxWidthWrapper className="py-10">
                 <AnimationContainer delay={0.1}>
                     <div className="flex flex-col items-center justify-center w-full py-8 max-w-xl mx-auto">
-                        <MagicBadge title="Our Customers" />
+                        <MagicBadge title="Client Feedback" />
                         <h2 className="text-center text-3xl md:text-5xl font-medium font-heading text-foreground mt-6">
-                            What our users are saying
+                            What Our Clients Say About Us
                         </h2>
                         <p className="mt-4 text-center text-lg text-muted-foreground max-w-lg">
-                            Here's what some of our users have to say about Troika & its Products.
+                            Real voices from our clients on how Wictronix made a difference.
                         </p>
                     </div>
                 </AnimationContainer>
@@ -235,10 +235,10 @@ const HomePage = () => {
                     <LampContainer>
                         <div className="flex flex-col items-center text-center">
                             <h2 className="bg-gradient-to-b from-neutral-200 to-neutral-400 text-4xl md:text-7xl font-heading tracking-tight text-transparent bg-clip-text mt-8">
-                                Reach Out to Troika Hub and Bring Your Vision to Life
+                                Let&apos;s Build Your Digital Future with Wictronix
                             </h2>
                             <p className="text-muted-foreground mt-6 max-w-md">
-                                Whether you have a project in mind or just want to explore ideas, we're here to help make it happen.
+                                Whether it&apos;s an idea or a fully-planned project, we&apos;re ready to collaborate and make it a success.
                             </p>
                         </div>
                         <FloatingDockDemo />
