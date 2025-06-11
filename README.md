@@ -1,7 +1,6 @@
 # WictroniX - Digital
 
 
-
 # Troika Hub - The All-in-One Creative Lab for Innovators (Landing Page)
 
 <!-- <img src="https://github.com/user-attachments/assets/deab03fd-4234-44c3-a6ad-484c4a1a02a1" alt="Troika Hub Thumbnail"> -->
@@ -9,8 +8,6 @@
 <img src="public\assets\Thumbnail (1).png">
 
 ## This is the previous version of the site, feel free to get inspired by the design make something for yourselves :>
-
-
 
 
 
